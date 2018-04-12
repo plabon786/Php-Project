@@ -108,7 +108,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `firstName`, `lastName`, `email`, `password`, `phoneNo`, `address`, `created_at`, `updated_at`) VALUES
-(9, 'Zahid Hasan', 'Shaikot', 'zahidhassanshaikot@gmail.com', '$2y$10$e.k.DKTmR.sOK1rqu6MKX.XuEuExExSGNiaQxnxE3OS73gZlFYOyu', '123456', 'shukrabadh', '2018-02-11 11:32:52', '2018-02-11 11:32:52');
+(9, 'Toufiq Elahi', 'Plabon', 'Plabon.2k17@gmail.com', '$2y$10$e.k.DKTmR.sOK1rqu6MKX.XuEuExExSGNiaQxnxE3OS73gZlFYOyu', '123456', 'shukrabadh', '2018-02-11 11:32:52', '2018-02-11 11:32:52');
 
 -- --------------------------------------------------------
 
@@ -303,7 +303,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Zahid Hasan', 's@gmail.com', '$2y$10$lVRwnSUOfg7STZMx3IryVuav2rqU5Tt.Ew6p7W3elxSIinNs7jlqC', 'EHshmaxDmkIi8UghGKz2bkQmUjfJLc9Mq717X70MZLueMBTe9S8qoj8il3bN', '2018-01-30 08:53:55', '2018-01-30 08:53:55');
+(1, 'Cloud Admin', 'admin@gmail.com', '$2y$10$lVRwnSUOfg7STZMx3IryVuav2rqU5Tt.Ew6p7W3elxSIinNs7jlqC', 'EHshmaxDmkIi8UghGKz2bkQmUjfJLc9Mq717X70MZLueMBTe9S8qoj8il3bN', '2018-01-30 08:53:55', '2018-01-30 08:53:55');
 
 --
 -- Indexes for dumped tables
